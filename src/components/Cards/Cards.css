@@ -1,0 +1,36 @@
+.card {
+  margin: 0 0 2rem 0 !important;
+  padding: 1rem !important;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: #959da533 0px 8px 24px;
+  border-radius: 3px;
+}
+
+.card p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: 'Merriweather', sans-serif;
+}
+.card .count {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card--infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.card--recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.card--deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}

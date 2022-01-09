@@ -1,0 +1,18 @@
+.form-control {
+  width: 100%;
+  margin-bottom: 1rem !important;
+}
+
+.form-select {
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 0.8rem;
+}
