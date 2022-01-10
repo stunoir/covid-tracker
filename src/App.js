@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className='grid-container'>
+    <div className='grid-container animated fadeIn'>
       <header>
         <div className='grid-x grid-padding-x'>
           <div className='medium-8 cell'>

@@ -7,7 +7,7 @@ function Card({ label, value, date }) {
       <div className={`card card--${label.toLowerCase()}`}>
         <h2>{label}</h2>
         <p className='count'>
-          <CountUp start={0} end={value} duration={2.5} separator=','></CountUp>
+          {value !== 0 ? <CountUp start={0} end={value} duration={2.5} separator=','></CountUp> : 'No values'}
         </p>
         <p>{new Date(date).toDateString()}</p>
         <p>Number of {label}</p>
